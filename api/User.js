@@ -30,7 +30,7 @@ transporter.verify((error, success) => {
 
 // setting server url
 const development = "http://localhost:5000/";
-const production = "https://mywallet-server-rwwk.onrender.com/";
+const production = "https://mobileappprojectserver.onrender.com";
 const currentUrl = process.env.NODE_ENV ? production : development;
 
 // Helper function for validation
