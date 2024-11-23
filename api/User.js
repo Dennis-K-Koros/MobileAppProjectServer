@@ -3,7 +3,7 @@ const bcrypt = require('bcrypt');
 const router = express.Router();
 const User = require('../models/User/user');
 const UserVerification = require('../models/User/userVerification');
-const PasswordReset = require('../models/User/PasswordReset');
+const PasswordReset = require('../models/User/passwordReset');
 const nodemailer = require("nodemailer");
 const {v4: uuidv4} = require("uuid");
 require("dotenv").config();
