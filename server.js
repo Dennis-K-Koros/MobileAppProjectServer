@@ -2,7 +2,7 @@
 require('./config/db');
 
 const app = require('express')();
-const port = 5000;
+const port = process.env.PORT || 5000;
 
 const bodyParser = require('express').json;
 app.use(bodyParser());
